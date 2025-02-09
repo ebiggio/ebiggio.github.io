@@ -25,7 +25,7 @@ De ahí a que el módulo se llame "Customer DNI", pero en la práctica, puede se
 ## TL;DR
 
 - [x] El módulo se encuentra disponible en GitHub, en el siguiente enlace: [Customer DNI module for PrestaShop](https://github.com/ebiggio/prestashop-customer-dni).
-- [x] Para usarlo, basta con descargar el archivo ZIP del último *release*, y realizar la instalación desde el back office de PrestaShop (Módulos > Administrador de módulos > Subir un módulo).
+- [x] Para usarlo, basta con descargar el archivo ZIP del último *release*, y realizar la instalación desde el back office de PrestaShop (Módulos > Administrador de módulos > <kbd>Subir un módulo</kbd>).
 - [x] Es gratuito y de código abierto, bajo licencia GPL v3.
 
 ## Características
