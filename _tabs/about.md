@@ -17,7 +17,9 @@ This has given me a broad perspective on how to approach new situations and deli
 
 I love to tackle new challenges that demand innovative and efficient solutions.
 My experience has honed my ability to learn quickly and maintain a strong curiosity to stay at the forefront of technological trends.
-That's why, when asked about what I would classify as my superpower, I always answer: "I'm comfortable knowing that there are things that *I don't know*. But what I don't know, **I can learn**."
+That's why, when asked about what I would classify as my superpower, I always answer:
+
+> I'm comfortable knowing that there are things that *I don't know*. But what I don't know, **I can learn**.
 
 My personal goal is to advance to the role of Software Architect, where I can design robust systems that drive growth and optimize performance across various industries.
 
