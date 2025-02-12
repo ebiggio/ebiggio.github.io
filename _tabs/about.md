@@ -3,7 +3,6 @@
 icon: fas fa-info-circle
 order: 4
 ---
-{% include reading-progress.html %}
 
 Hello! My name's Enzo. I am a software engineer from Santiago, Chile.
 
@@ -48,3 +47,5 @@ A display of books that I have read/am reading [with a twist](/posts/virtual-boo
 ## Dog tax
 ![Dante](/assets/img/dante.jpg){: .shadow w="450" h="562" }
 _Dante, my 42kg pitbull-something mix_
+
+<script src="{{ '/assets/js/reading-progress.js' | relative_url }}"></script>

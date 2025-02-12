@@ -6,6 +6,9 @@ tags: [jekyll, google-sheets, javascript]
 description: Creating a virtual bookshelf on a Jekyll site, with progress tracking.
 pin: true
 mermaid: true
+image:
+  path: /assets/img/2025/02/virtual-bookshelf-with-progress-preview.png
+  alt: Virtual bookshelf with progress
 ---
 
 I want to make an honest confession: I have a _lot_ of pending books to read.
@@ -149,13 +152,6 @@ The site will fetch the reading progress from the spreadsheet every time the [Ab
 The site is built with Jekyll, with Chirpy as the theme. These conditions don't present any particular challenge for the implementation, which at this point is fairly straightforward.
 However, I am new to this ecosystem, so it is possible that the following steps could be refined or improved.
 
-- I created a new _include_ file, `reading-progress.html`, with the sole purpose of loading the JavaScript file that fetches the reading progress:
-
-```liquid
-{% raw %}<script src="{{ '/assets/js/reading-progress.js' | relative_url }}"></script>{% endraw %}
-```
-{: file="_includes/reading-progress.html"}
-
 - I created a new JavaScript file, `reading-progress.js`, that fetches the reading progress from the spreadsheet and updates the `<img>`'s parent `<a>` element with the corresponding progress:
 
 ```javascript
@@ -260,10 +256,10 @@ document.addEventListener('DOMContentLoaded', function () {
 > If you see something that can be improved, please let me know!
 {: .prompt-info }
 
-- I added the following Liquid tag to the "About" Markdown file, to include the reading progress script:
+- I included the JavaScript file directly in the "About" using the following Liquid tag:
 
 ```liquid
-{% raw %}{% include reading-progress.html %}{% endraw %}
+<script src="{{ '/assets/js/reading-progress.js' | relative_url }}"></script>
 ```
 {: file="_tabs/about.md"}
 
@@ -271,8 +267,8 @@ This way, I avoid loading the script on every page and only include it where it'
 
 ### 4. Display progress
 
-With the JavaScript and CSS in place, the site will now display the reading progress for each book on the virtual bookshelf,
-if the book cover has a filename that matches a ISBN or ASIN in the spreadsheet.
+With the JavaScript and CSS in place, the site will now display the reading progress for each book on the virtual bookshelf
+if the book cover has a filename that matches an ISBN or ASIN in the spreadsheet.
 You can see the end result in the [About page](/about), which looks like this:
 
 ![Virtual bookshelf with progress](/assets/img/2025/02/virtual-bookshelf-with-progress.png)
