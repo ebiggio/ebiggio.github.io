@@ -11,3 +11,52 @@
 #sidebar .site-title, h1, h2 {
   color: #84ABDF;
 }
+
+.book-cover {
+  position: relative;
+  display: inline-block; /* Ensures container matches the image size */
+  --progress: 0%;        /* Default: 0% read */
+}
+
+.book-cover img {
+  display: block;
+}
+
+/*
+   Dimming overlay:
+   - top portion is partially opaque (e.g., 50% black),
+   - bottom portion is transparent, based on --progress.
+*/
+.book-cover::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  pointer-events: none;  /* click-thru to the link */
+
+  /*
+    If progress=10, then the top 90% is dim,
+    and the bottom 10% remains full color.
+  */
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5) calc(100% - var(--progress, 0%)),
+      rgba(0, 0, 0, 0) calc(100% - var(--progress, 0%))
+  );
+}
+
+/*
+   Progress label below the image:
+   - Absolutely positioned at "top: 100%", i.e.
+     just below the anchor’s bottom edge.
+   - Not affected by the overlay because it’s
+     outside the anchor’s main area.
+*/
+.book-cover::after {
+  content: attr(data-progress); /* e.g. "10%" */
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  pointer-events: none;
+  color: #84ABDF;
+}
