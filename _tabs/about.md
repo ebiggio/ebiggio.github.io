@@ -35,14 +35,7 @@ Those hard games definitely shaped my patience and problem-solving skills as wel
 
 I also like to play airsoft. While I don't play as often as I would like, I enjoy the tactical aspect of the game and the camaraderie that comes with it.
 
-## Virtual bookshelf
-
-A display of books that I have read/am reading [with a twist](/posts/virtual-bookshelf-with-progress).
-
-![978-1492075455](/assets/img/books/978-1492075455.jpg){: .normal .book-cover }
-![B0CBCY5ZHR](/assets/img/books/B0CBCY5ZHR.jpg){: .normal .book-cover }
-![B0CLVMY1TC](/assets/img/books/B0CLVMY1TC.jpg){: .normal .book-cover }
-![978-1492043454](/assets/img/books/978-1492043454.jpg){: .normal .book-cover }
+{% include virtual-bookshelf.md %}
 
 ## Dog tax
 ![Dante](/assets/img/dante.jpg){: .shadow w="450" h="562" }
