@@ -136,11 +136,11 @@ Yes, I know. This is another compromise that I made. But its certainly **not** a
 This is something that I actually tested. For example, with Open Library, you can get the cover of a book with a simple HTTP request:
 
 ```bash
-https://covers.openlibrary.org/b/isbn/978-1492043454-M.jpg
+GET https://covers.openlibrary.org/b/isbn/978-1492043454-M.jpg
 ```
 
 But this is _another_ rabbit hole that I had to force myself to avoid. Perhaps for a part two of this post I could explore this further.
-But for now, I will upload the covers manually after editing them a bit to have a consistent size and style.
+For now, I will upload the covers manually after editing them a bit to have a consistent size and style.
 
 ### 3. Build site with reading updates
 

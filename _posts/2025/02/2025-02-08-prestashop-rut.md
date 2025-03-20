@@ -80,7 +80,7 @@ y que se valide mediante una expresión regular específica para números de pas
 ## ¿Puedo contribuir al módulo?
 
 ¡Por supuesto! Si tienes alguna idea para mejorar el módulo, o si encuentras un error, no dudes en abrir un *issue* en el repositorio de GitHub del módulo.
-También puedes hacer *fork* del repositorio, realizar tus cambios y abrir un *pull request* para incorporarlos al módulo.
+También puedes hacer *fork* del repositorio, realizar tus cambios y abrir un *pull request* para incorporarlos.
 
 ## Detalles técnicos
 
@@ -99,7 +99,7 @@ Si necesitas acceder al valor del campo DNI de un cliente en específico, basta 
 El módulo también incorpora nuevos hooks personalizados para operar con el campo DNI del cliente de forma programática.
 El detalle de estos hooks se encuentra en el `README` del módulo.
 
-Si bien el módulo está programado en inglés, incluye traducciones al español (chileno).
+Si bien el módulo está programado en inglés, incluye traducciones al español (de Chile, por lo que el término "DNI" será reemplazado por "RUT").
 
 [^1]: Es posible que un RUT sea compartido por múltiples IDs de clientes cuando se visualizan los datos de la tabla de la base de datos. Esto se debe a clientes invitados, que *técnicamente* no están registrados en la tienda, pero que han realizado compras. La validación de unicidad se realiza solo sobre los clientes registrados, ya que de lo contrario, se estaría restringiendo la posibilidad de que un cliente invitado luego se registre con un RUT que previamente haya utilizado para una compra.
 [^2]: No probado en versiones inferiores a 8.1, así que recomendaría evaluarlo en un entorno de pruebas antes de implementarlo en producción.
