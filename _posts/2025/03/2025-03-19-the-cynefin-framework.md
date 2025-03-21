@@ -15,12 +15,11 @@ So, what exactly is the Cynefin framework? Developed by Dave Snowden for IBM in 
 It establishes five domains to guide decision-making: Clear (formerly Simple or Obvious), Complicated, Complex, Chaotic, and Disorder.
 These domains are typically visualized graphically, resembling a cartesian plane, with a central area (where the "0,0" coordinates would be) representing the Disorder (or Confusion) domain.
 
-![Cynefin framework](/assets/img/2025/03/cynefin-framework-diagram.png){: .shadow }
-_Behold! A visual representation of the Cynefin framework made in 2 minutes on the mighty Draw.io platform._
+![Cynefin framework](/assets/img/2025/03/cynefin-framework-diagram.png)
+_Behold! A visual representation of the Cynefin framework, made in 2 minutes on the mighty Draw.io platform._
 
 > Just for giggles, I asked ChatGPT to create images for each of the Cynefin domains based on the descriptions I provided, in a comic style.
-> The results were quite amusing but also surprisingly accurate. So I decided to include them here, unedited.
-> I hope you enjoy them as much as I did.
+> The results were quite amusing but also surprisingly accurate. I decided to include them in this post, unedited, hoping that you enjoy them as much as I did.
 {: .prompt-info }
 
 ## The Cynefin domains
@@ -29,7 +28,7 @@ _Behold! A visual representation of the Cynefin framework made in 2 minutes on t
 
 * _Sense - Categorize - Respond_ (or, "Just RTFM")
 
-![Clear domain](/assets/img/2025/03/chatgpt-clear-domain.webp){: .right w="340" }
+![Clear domain](/assets/img/2025/03/chatgpt-clear-domain.webp){: .right .w-50 w="340" }
 
 The situations that fall into this domain are those where the relationship between cause and effect is obvious to everyone.
 We can look for rules, best practices, or standard operating procedures to guide our actions.
@@ -46,7 +45,7 @@ Therefore, this domain is not where one would expect to find creativity or innov
 
 * _Sense - Analyze - Respond_ (or, "Let's ask an expert")
 
-![Complicated domain](/assets/img/2025/03/chatgpt-complicated-domain.webp){: .left w="340" }
+![Complicated domain](/assets/img/2025/03/chatgpt-complicated-domain.webp){: .left .w-50 w="340" }
 
 In the Complicated domain, the relationship between cause and effect is not immediately apparent, but it can be determined by analysis or expertise.
 Being here means that we're dealing with "known unknowns," where even with the correct knowledge or support from an expert, **there may be multiple correct answers**.
@@ -61,7 +60,7 @@ Good practices here are key, as they can guide us to the correct solution, but w
 
 * _Probe - Sense - Respond_ (or, "Let's try something and see what happens")
 
-![Complex domain](/assets/img/2025/03/chatgpt-complex-domain.webp){: .right w="340" }
+![Complex domain](/assets/img/2025/03/chatgpt-complex-domain.webp){: .right .w-50 w="340" }
 
 In the Complex domain, the relationship between cause and effect can only be understood in retrospect.
 Here, we're present with "unknown unknowns," where **we don't know what we don't know**.
@@ -85,7 +84,7 @@ allowing us to learn from our mistakes and make adjustments to our approach acco
 
 * _Act - Sense - Respond_ (or, "Just do something!")
 
-![Chaotic domain](/assets/img/2025/03/chatgpt-chaotic-domain.webp){: .left w="340" }
+![Chaotic domain](/assets/img/2025/03/chatgpt-chaotic-domain.webp){: .left .w-50 w="340" }
 
 Chaotic situations are turbulent and unpredictable, where the relationship between cause and effect is unclear.
 There's a sense of randomness and urgency, and the best course of action is to _act_ first, _sense_ the changes that occur, and _respond_ accordingly.
@@ -101,7 +100,7 @@ So, there's no time to look for Stack Overflow questions; that will come later o
 
 * "I don't know what the hell is going on."
 
-![Disorder domain](/assets/img/2025/03/chatgpt-disorder-domain.webp){: .right w="340" }
+![Disorder domain](/assets/img/2025/03/chatgpt-disorder-domain.webp){: .right .w-50 w="340" }
 
 The Disorder domain, by definition, is where we find ourselves when we don't know which of the other domains apply.
 It's a state of confusion, where we're unable to make sense of the situation, and we don't know what approach to take.
