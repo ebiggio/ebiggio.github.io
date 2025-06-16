@@ -4,7 +4,6 @@ date: 2025-03-19 00:00:00 -03:00
 categories: [Agile]
 tags: [cynefin, framework, agile]
 description: A brief introduction to the Cynefin Framework; a sense-making model that aims to answer the golden question of "What the hell should I do now?".
-pin: true
 ---
 
 More often than I'd like, I find myself in situations that prompt my inner voice to say something along the lines of, "Great, so what the hell should I do now?"
